@@ -8,6 +8,8 @@ public class TestGenericsWithString {
     public static void main(String[] args) {
         WithGenerics<String> w = new WithGenerics<>();
         w.setValue("Hello");
+        // w.setValue(1); it is getting compiled time error
+        // we can restrict and avoid bugs that application
         System.out.println(w.getValue());
     }
 }

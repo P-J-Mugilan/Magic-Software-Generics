@@ -12,7 +12,7 @@ public class ManualTypeCasting {
         list.add("MCA");
 
         // messy code
-        // runtime bugs
+        // runtime bugsgit s
         String course =  (String)list.get(0);
 
 

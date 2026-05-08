@@ -9,6 +9,8 @@ public class TestGenericsWithInteger {
     public static void main(String[] args) {
         WithGenerics<Integer> w = new WithGenerics<>();
         w.setValue(2);
+        // w.setValue("String"); it is getting compiled time error
+        // we can restrict and avoid bugs that application
 
         System.out.println(w.getValue());
     }
